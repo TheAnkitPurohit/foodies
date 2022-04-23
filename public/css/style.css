@@ -1,0 +1,249 @@
+/* navigation bar styling  */
+
+nav {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  padding: 0 21px;
+  justify-content: space-between;
+}
+
+nav::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 75px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* navigation bar styling : logo and image  */
+
+nav .logo {
+  padding: 3px 0px;
+}
+
+nav .logo img {
+  width: 66px;
+  border-radius: 50%;
+}
+
+/* navigation bar styling : list styling  */
+
+nav ul {
+  display: flex;
+  font-family: "Baloo Bhaina 2", cursive;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  display: block;
+  border-radius: 20px;
+  padding: 5px 20px;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+
+.google-btn {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
+.google-btn:hover {
+  cursor: pointer;
+  background-color: cornsilk;
+  font-weight: bold;
+}
+
+.google-btn img {
+  width: 22px;
+  margin-right: 10px;
+}
+
+.sign-in {
+  display: none;
+}
+
+/* section home styling  */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  height: 570px;
+}
+
+#home::before {
+  content: "";
+  background: url("../images/background/bg.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 640px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+#content {
+  margin-top: 80px;
+  margin-left: 1rem;
+}
+
+#home h1 {
+  color: white;
+}
+
+#home p {
+  color: white;
+  padding: 12px;
+  font-size: 1.2rem;
+  width: 700px;
+  max-width: 80vw;
+}
+
+/* Services Section  */
+#services {
+  margin: 0 45px;
+  display: flex;
+}
+
+#services .box {
+  border: 2px solid brown;
+  margin: 11px;
+  padding: 16px;
+  background-color: #f5deb312;
+  font-family: "Bree Serif", serif;
+  border-radius: 13px;
+}
+
+#services .box img {
+  height: 200px;
+  margin: auto;
+  display: block;
+}
+
+/* partner-section  */
+
+#partner-section {
+  position: relative;
+}
+
+#partner-section::before {
+  content: "";
+  background: url("../images/background/Social.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+#partners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#partners img {
+  width: 12vw;
+  padding: 0 30px;
+  margin: 30px 0;
+}
+
+/* Location  */
+#location {
+  width: 90vw;
+  height: 60vh;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#location iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Contact Section  */
+
+#contact {
+  position: relative;
+}
+
+#contact::before {
+  content: "";
+  background: url("../images/background/contact.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
+  margin: 10px 0px;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 14px;
+}
+#contact-box form {
+  width: 50%;
+}
+
+#contact-box label {
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
+}
+
+#contact-box input[type="submit"] {
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+#contact-box input[type="submit"]:hover {
+  background-color: #1b1b3d;
+}
+
+/* footer  */
+footer {
+  background-color: black;
+  color: white;
+  padding: 9px 20px;
+}

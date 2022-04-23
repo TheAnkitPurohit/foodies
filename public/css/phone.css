@@ -1,0 +1,63 @@
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 12px;
+  }
+  /* Navigation  */
+  nav::before {
+    height: 120px;
+  }
+  nav ul {
+    position: absolute;
+    top: 70px;
+  }
+  nav ul li {
+    padding-left: 6px;
+  }
+  nav ul li a {
+    font-size: 1rem;
+    padding: 6px 10px;
+  }
+  .sign-in {
+    display: block;
+    margin-right: 2px;
+  }
+  #home button {
+    margin-top: 10px;
+  }
+
+  /* Services Section  */
+
+  #services {
+    margin: 9px;
+  }
+
+  #services .box {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 9px;
+  }
+
+  /* partner  */
+
+  #partners img {
+    width: 14vw;
+    padding: 0 15px;
+    margin: 30px 0;
+  }
+
+  /* location */
+
+  #location {
+    width: 100vw;
+  }
+  /* Contact us Section  */
+
+  #contact-box form {
+    width: 90%;
+  }
+
+  #contact-box input,
+  #contact-box textarea {
+    padding: 0.2rem;
+  }
+}
