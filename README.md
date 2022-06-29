@@ -1,3 +1,5 @@
-# foodies
 
-Project Link : https://foodies-restaurent.herokuapp.com/
+# Foodies - Restaurent Website UI Clone
+
+### Project Link :  https://theankitpurohit.github.io/foodies/
+
